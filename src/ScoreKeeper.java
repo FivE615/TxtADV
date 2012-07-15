@@ -10,11 +10,11 @@ public class ScoreKeeper {
 		   */
 		  public boolean hit(int i) {
 			if (i>=8) {
-				System.out.println("CRITICAL HIT!");
+				System.out.println("CRITICAL HIT!!");
 			}
 		    System.out.println("You hit: "+i*3);
 		    if (armor > 0) {
-		      armor = armor - 2;
+		      armor = armor - 4;
 		    }
 		    if (health > 0) {
 		      health = health - i*3;
